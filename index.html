@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Gockeltal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <h1>Welcome to Gockeltal</h1>
+            <p>Discover the Beauty of Nature</p>
+        </div>
+    </header>
+
+    <div id="google_translate_element"></div> <!-- Google Translate widget container -->
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#attractions">Attractions</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <div class="section-inner">
+                <h2>About Gockeltal</h2>
+                <p>Discover the hidden gem nestled in the heart of nature. Gockeltal offers breathtaking views, serene forests, and a rich cultural heritage.</p>
+            </div>
+        </section>
+
+        <section id="attractions">
+            <div class="section-inner">
+                <h2>Attractions</h2>
+                <div class="attraction">
+                    <img src="attraction1.jpg" alt="Attraction 1">
+                    <h3>Mountain Hiking</h3>
+                    <p>Explore our picturesque mountain trails and enjoy the fresh air and stunning vistas.</p>
+                </div>
+                <div class="attraction">
+                    <img src="attraction2.jpg" alt="Attraction 2">
+                    <h3>Historical Sites</h3>
+                    <p>Visit our ancient ruins and learn about the rich history of Gockeltal.</p>
+                </div>
+                <div class="attraction">
+                    <img src="attraction3.jpg" alt="Attraction 3">
+                    <h3>Local Cuisine</h3>
+                    <p>Savor delicious, locally sourced dishes that showcase the flavors of Gockeltal.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-inner">
+                <h2>Contact Us</h2>
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Gockeltal. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+
+    <!-- Google Translate API script -->
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
