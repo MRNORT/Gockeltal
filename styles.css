@@ -1,0 +1,117 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f5e1da;
+    color: #5c463e;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.header-inner {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header p {
+    font-style: italic;
+    color: #7c5c4e;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #d9bfaf;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5c463e;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #7c5c4e;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.section-inner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.attraction {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.attraction img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-gallery img {
+    max-width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+form label, form textarea, form input[type="text"], form input[type="email"] {
+    display: block;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+form input[type="submit"] {
+    background-color: #d9bfaf;
+    color: #5c463e;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #7c5c4e;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #5c463e;
+}
